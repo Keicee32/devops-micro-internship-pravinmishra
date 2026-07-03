@@ -385,5 +385,9 @@ It helps learners build strong DevOps foundations with hands-on experience.
 - 🏢 **CloudAdvisory (LinkedIn):** https://www.linkedin.com/company/thecloudadvisory/
 
 ---
+* Anjana Muthunayake [Linkedin profile](https://www.linkedin.com/in/anjana-muthunayake/)
+* Nkechi Ahanonye [Linkedin profile](https://www.linkedin.com/in/nkechiahanonye/)
+* Tanisha Borana [Linkedin profile](https://www.linkedin.com/in/tanisha-borana-552797233/)
+* Anuradha Iyer [Linkedin profile](https://www.linkedin.com/in/iyeranuradha/)
 
 *This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track*
