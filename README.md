@@ -14,11 +14,11 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Name** | Egekenze Kelechi |
+| **LinkedIn** | [kelechi-egekenze](https://www.linkedin.com/in/kelechi-egekenze/) |
+| **Location** | Lagos, Nigeria |
+| **Background** | Devops |
+| **Goal** | Be a world class Devops Engineer |
 
 ---
 

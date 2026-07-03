@@ -33,7 +33,7 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+I personally believe that hardwork and consistency pays. In my few years of working, I remember my humble beginnings. At the initial stages, with little to no experience, studying felt like a huddle, concepts sounded like algebra but I had no other choice: it was tech or (I didn't even have another career option).
 
 ---
 
@@ -55,11 +55,11 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Like in my previous answer, consistency pays.
 
 ### Evidence from my life
 
-Add your answer here...
+Coming into the cloud space, Linux is the ultimate truth. A knowledge of the Linux environment helps simplify the cloud. My first time using Linux was hell. For someone used to see files and directories on a GUI coming to Linux and all you see is a black screen and blinking prompts, I sure didn't think Linux was for me. I enrolled for a linux tutorial with a Romanian teacher, language barriers too was an issue because he isn't a fluent English speaker. But I didn't let that stop me. Today, I prefer the black screen to a GUI.
 
 ---
 
@@ -67,11 +67,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Most times the problem is not as big as I thought
 
 ### Evidence from my life
 
-Add your answer here...
+Having worked on a few environments over the years, I have come to the realization that not all problems are as huge as they seem to be. Many times that most, the problem is a misconfiguration here or a misspelt word there. Now, this doesn't mean huge problems don't exist but I was once taught to "break the huge problems into small chunks and tackle each small chunk".
 
 ---
 
@@ -79,11 +79,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Put yourself out there
 
 ### Evidence from my life
 
-Add your answer here...
+When I started my cloud journey, I was enrolled with a tech startup and while I was learning new concepts of the cloud space, I constantly was updating the slack channel of my current company and showing every new thing I learned. At that time, I was without a job and I was using the medium to educate people while I learnt to re-enforce my learning. Unbeknown to me, my post caught the attention of my boss and that was how I got my job.
 
 ---
 
@@ -135,13 +135,28 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+## The Architect Behind the Curtain: Tracing the Rise of an Infrastructure Maverick
+By Sarah Jenkins, Senior Technology Reporter | Tech Insider Magazine
+
+Long before AI agents became the default standard for enterprise software, a viral LinkedIn post breaking down an obscure, highly complex n8n workflow caught the attention of the global tech community. The author wasn't a Silicon Valley veteran of twenty years, but Kelechi Egekenze, a rapidly rising DevOps engineer whose journey started at AltSchool Africa back in 2021. Today, analyzing Kelechi’s expansive GitHub portfolio and the massive scale of their current operations, it is clear that early post was merely a prologue.
+
+The turning point occurred during a highly productive tenure at Dufuna Technology Limited. During those critical early years, Kelechi built and fortified highly resilient infrastructure environments on AWS. While traditional developers focused solely on application code, Kelechi relentlessly shipped seamless, automated deployment pipelines utilizing both Bitbucket and GitHub Actions. Industry insiders still reference how Kelechi overhauled Dufuna's production monitoring, establishing an ironclad, proactive system utilizing Prometheus, Grafana, and Alertmanager, alongside provisioning fail-proof application backups.
+
+It was also during this era that Kelechi took on the Nansi Project—a pioneering AI-driven tool that intelligently distributed client payment reminders. This project highlighted a rare, cross-disciplinary capability to merge DevOps infrastructure with emerging Data Science applications. Recognizing this industry shift, Kelechi quickly earned advanced, elite-level architectural certifications, building heavily upon foundational AWS Cloud Practitioner and KCNA credentials.
+
+As international demand for AI-integrated cloud expertise exploded, Kelechi officially relocated to a major global tech hub to take on the job role of Principal Cloud Architect. In this high-stakes position, Kelechi led massive, cross-functional teams of engineers, successfully bridging the gap between raw data science concepts and highly available cloud realities.
+
+Beyond corporate leadership, unwavering community contribution remained a defining trait of Kelechi's career. Kelechi actively contributed vital code to tier-one open-source enterprise tools and maintained a public technical portfolio that became a definitive blueprint for modern system design. Expanding upon that early social media presence, Kelechi published a critically acclaimed technical blog that expertly demystified complex CI/CD integrations for thousands of daily readers.
+
+From those 2021 origins at AltSchool to dictating the architectural standards of tomorrow, Kelechi Egekenze didn't just witness the evolution of modern DevOps—they actively wrote the code for it.
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( https://discord.pravinmishra.com/ ).
 
 ### Public Link
 
 Paste your link here:
 
-`__________________________`
+`https://www.linkedin.com/pulse/architect-behind-curtain-tracing-rise-infrastructure-kelechi-egekenze-yu2ue`
 
 ---
 
@@ -173,7 +188,7 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+At first I felt like I was doing the right thing but after careful observation, I felt dirty. I had this overwhelming feeling of disappointment in myself for doing what I did and I had to go and ask forgiveness for what I did and I promised myself not to ever do it again.
 
 ---
 
@@ -199,12 +214,12 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
+1. The 5 AM club **Robin Sharma**
+2. Richest man in babylon **George S. Clason**
+3. 48 laws of Power **Robert Greene**
+4. Rich Dad, Poor Dad **Robert T. Kiyosaki**
+5. The Psychology of Money **Morgan Housel**
+6. Atomic Habits **James Clear**
 7. Add your answer here...
 8. Add your answer here...
 9. Add your answer here...
@@ -237,12 +252,12 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Sleep Hours
+* Focus Times
+* Hours spent on my phone
+* Spending tracker
+* Type of food I consume
+* 5000 steps daily.
 * Add your answer here...
 * Add your answer here...
 * Add your answer here...
@@ -272,7 +287,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
+Yes
 
 ---
 
@@ -290,7 +305,9 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+1. Do at least 2 hours of study a day.
+2. Get at least 6 hours of sleep at night.
+3. Sat: DMI session
 
 ---
 
@@ -298,11 +315,11 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Everyday after Close of Work before I sleep
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+3
 
 ---
 
@@ -316,7 +333,8 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+During my study hours, I'd put my phone on flight mood.
+Avoid latenights so I can study a bit at night.
 
 ---
 
@@ -324,15 +342,15 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+Most times, I'm too busy with other people's duties than mine.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+I can't focus on one thing for too long (short attention span)
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+Learn to do at least one hour of focus learning daily
 
 ### LinkedIn Post
 
@@ -344,7 +362,7 @@ Paste your LinkedIn post link here:
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
+- LinkedIn Post URL: **https://www.linkedin.com/pulse/architect-behind-curtain-tracing-rise-infrastructure-kelechi-egekenze-yu2ue**  
 - Blog / Medium : **ADD LINK HERE**  
 
 ---
