@@ -20,13 +20,13 @@ Install the Claude Code CLI globally and authenticate it using your Anthropic ac
 
 #### Screenshot 1 — Terminal showing `claude --version` with the version number visible
 
-Add your screenshot here.
+[Assignment 1 Screenshot](./screenshots/week-02-screenshot-01.png)
 
 ---
 
 #### Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
 
-Add your screenshot here.
+[Assignment 1 Screenshot](./screenshots/week-02-screenshot-02.png)
 
 ---
 
@@ -40,7 +40,7 @@ Fork the provided GitHub repository, clone it to your local machine, and open it
 
 #### Screenshot 3 — VS Code with the project open, file tree visible showing `index.html`, `style.css`, `images/`
 
-Add your screenshot here.
+[Assignment 1 Screenshot](./screenshots/week-02-screenshot-03.PNG)
 
 ---
 
@@ -54,13 +54,15 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather �
 
 #### Screenshot 4 — Claude's response to the first question, showing it read the files (tool calls visible)
 
-Add your screenshot here.
+[Assignment 1 Screenshot](./screenshots/week-02-screenshot-04.png)
+[Assignment 1 Screenshot](./screenshots/week-02-screenshot-05.png)
+[Assignment 1 Screenshot](./screenshots/week-02-screenshot-06.png)
 
 ---
 
 #### Screenshot 5 — Claude's response to the second question, showing it ran a command and reported the line count
 
-Add your screenshot here.
+[Assignment 1 Screenshot](./screenshots/week-02-screentshot-07.PNG)
 
 ---
 
@@ -77,7 +79,7 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/Keicee32/Ultimate-Agentic-DevOps-with-Claude-Code.git`
 
 ---
 
@@ -111,5 +113,9 @@ It helps learners build strong DevOps foundations with hands-on experience.
 - 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
 
 ---
+* Anjana Muthunayake [Linkedin profile](https://www.linkedin.com/in/anjana-muthunayake/)
+* Nkechi Ahanonye [Linkedin profile](https://www.linkedin.com/in/nkechiahanonye/)
+* Tanisha Borana [Linkedin profile](https://www.linkedin.com/in/tanisha-borana-552797233/)
+* Anuradha Iyer [Linkedin profile](https://www.linkedin.com/in/iyeranuradha/)
 
 *This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
