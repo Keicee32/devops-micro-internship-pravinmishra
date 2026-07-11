@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+[Linkedin Post](./screenshots/LinkedInArticle.png)
 
 ---
 
@@ -54,7 +54,7 @@ Add your screenshot here.
 
 Blog Link:
 
-`__________________________________________`
+`https://www.linkedin.com/pulse/reflection-week-2-kelechi-egekenze-rhv5e`
 
 ---
 
@@ -92,23 +92,33 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+[Linkedin Post](./screenshots/LinkedinPost2.png)
 
 ---
 
 ### Submission Field
 
-LinkedIn Post Content (copy-paste here):
+LinkedIn Post Content (copy-paste here): 
 
 ```
 Paste your LinkedIn post content here
 ```
+Before discussing the CLAUDE.md file, it is worth taking a step back to understand why such a file is necessary in the first place. Over the past few years, artificial intelligence has experienced remarkable growth and has become deeply integrated into our daily lives. Whether it is used for writing, coding, research, content creation, customer support, or automation, AI has transformed the way people work and solve problems. Despite its widespread adoption, many users still interact with AI primarily as a conversational chatbot, asking questions and receiving answers without taking advantage of its more advanced capabilities.
+This is where the CLAUDE.md file becomes valuable. At first glance, it may appear similar to a README.md file since both are Markdown documents stored within a project. However, they serve very different purposes. A README.md file is written for humans—it explains what a project is about, how to install it, how to use it, and provides documentation for developers and contributors. In contrast, a CLAUDE.md file is written specifically for Claude Code. It provides the AI with project-specific instructions, coding conventions, architectural guidelines, preferred workflows, and other contextual information that help it understand how it should behave while assisting with the project. Rather than treating Claude as just another chatbot, the CLAUDE.md file enables it to function as a knowledgeable collaborator that understands the project's expectations and can produce more accurate, consistent, and context-aware results.
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( [https://discord.pravinmishra.com/](https://discord.pravinmishra.com/) ).
+
+
+
+Below is a sample CLAUDE file:
+[Linkedin Post](./screenshots/LinkedinPost2.png)
+
 
 ---
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
+`https://www.linkedin.com/posts/kelechi-egekenze_before-discussing-the-claudemd-file-it-share-7481653232772030464-WWRF/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADT58zgB1d_Na5CgQd9L3ayPC9yKCe5WLA4`
 
 ---
 
@@ -143,6 +153,12 @@ DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mi
 It helps learners build strong DevOps foundations through hands-on experience.
 
 ---
+
+* Anjana Muthunayake [Linkedin profile](https://www.linkedin.com/in/anjana-muthunayake/)
+* Nkechi Ahanonye [Linkedin profile](https://www.linkedin.com/in/nkechiahanonye/)
+* Tanisha Borana [Linkedin profile](https://www.linkedin.com/in/tanisha-borana-552797233/)
+* Anuradha Iyer [Linkedin profile](https://www.linkedin.com/in/iyeranuradha/)
+
 
 # Resources
 
