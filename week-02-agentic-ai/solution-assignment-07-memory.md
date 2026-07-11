@@ -20,7 +20,7 @@ Discover exactly where Claude Code stores memory for this project.
 
 #### Screenshot 1 — Memory file path shown by Claude
 
-Add your screenshot here.
+![Assignment 7 Screenshot](./screenshots/week-02-screenshot-01-assignment-07.png)
 
 ---
 
@@ -34,13 +34,13 @@ Teach Claude three specific facts about the project and instruct it to save them
 
 #### Screenshot 2 — Claude confirming the memory was saved
 
-Add your screenshot here.
+![Assignment 7 Screenshot](./screenshots/week-02-screenshot-02-assignment-07.png)
 
 ---
 
 #### Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
-Add your screenshot here.
+![Assignment 7 Screenshot](./screenshots/week-02-screenshot-03-assignment-07.png)
 
 ---
 
@@ -54,7 +54,7 @@ Terminate the current Claude Code session and restart it to ensure memory is the
 
 #### Screenshot 4 — VS Code reopened with a fresh Claude Code session showing no previous conversation
 
-Add your screenshot here.
+![Assignment 7 Screenshot](./screenshots/week-02-screenshot-04-assignment-07.png)
 
 ---
 
@@ -68,13 +68,13 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 #### Screenshot 5 — Claude recalling hero section colors
 
-Add your screenshot here.
+![Assignment 7 Screenshot](./screenshots/week-02-screenshot-05-assignment-07.png)
 
 ---
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
-Add your screenshot here.
+![Assignment 7 Screenshot](./screenshots/week-02-screenshot-06-assignment-07.png)
 
 ---
 
@@ -91,15 +91,16 @@ Add your screenshot here.
 
 Paste your Linkedin post link here:
 
-`__________________________`
+`https://www.linkedin.com/posts/kelechi-egekenze_dmibypravinmishra-agenticai-claudecode-ugcPost-7481638576447889408-hJd2/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADT58zgB1d_Na5CgQd9L3ayPC9yKCe5WLA4`
 
+[LinkedIn Post Screenshot](./screenshots/LinkedInPost.png)
 ---
 
 ## GitHub Repository URL
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/Keicee32/Ultimate-Agentic-DevOps-with-Claude-Code.git`
 
 ---
 
@@ -135,5 +136,10 @@ It helps learners build strong DevOps foundations with hands-on experience.
 - 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
 
 ---
+* Anjana Muthunayake [Linkedin profile](https://www.linkedin.com/in/anjana-muthunayake/)
+* Nkechi Ahanonye [Linkedin profile](https://www.linkedin.com/in/nkechiahanonye/)
+* Tanisha Borana [Linkedin profile](https://www.linkedin.com/in/tanisha-borana-552797233/)
+* Anuradha Iyer [Linkedin profile](https://www.linkedin.com/in/iyeranuradha/)
+
 
 *This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
