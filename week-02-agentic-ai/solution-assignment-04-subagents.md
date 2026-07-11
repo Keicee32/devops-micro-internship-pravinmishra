@@ -93,7 +93,7 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — The full cost optimization report
 
-![Assignment 4 Screenshot](./screenshots/week-02-screenshot-05-assignment-04.png)
+![Assignment 4 Screenshot](./screenshots/week-02-screenshot-06-assignment-04.png)
 
 ---
 
