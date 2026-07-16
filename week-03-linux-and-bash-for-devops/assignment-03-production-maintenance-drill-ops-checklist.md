@@ -105,7 +105,8 @@ Answer the following in your own words:
 
 **2. What's your basic rollback plan?**
 
-Write your answer here.
+- Check for errors and fix it.
+- Always make sure there's a backup of the working config before modifying it.
 
 ---
 
@@ -243,7 +244,7 @@ Answer the following in your own words:
 
 **1. How do you confirm that the correct version of the application is deployed?**
 
-Write your answer here.
+- On the browser, check if the changes made to any file is reflected .
 
 ---
 
@@ -321,19 +322,20 @@ Answer the following in your own words:
 
 **1. What caused the application to break in this scenario?**
 
-Write your answer here
+- The index.html file was missing.
 
 ---
 
 **2. How did you fix the issue and restore the application?**
 
-Write your answer here.
+- I added the missing index.html file back to /var/www/html directory.
 
 ---
 
 **3. What steps would you take to prevent this kind of issue in real production systems?**
 
-Write your answer here.
+- Make sure the right files are present.
+- Make sure the location directive points to the right index file, either index.php or otherwise depending on the tech stack used.
 
 ---
 
@@ -349,31 +351,31 @@ Answer the following in your own words:
 
 **1. Why is SSH key-based authentication more secure than sharing passwords?**
 
-Write your answer here.
+- SSH key-based is more secure because a server can only be accessed by anyone with the .pem file while with passwords, a hacker can guess or crack the passwor.
 
 ---
 
 **2. Why should only required ports be open on a production server?**
 
-Write your answer here.
+- Too many unnecessary ports give more room to hackers to access the server. 
 
 ---
 
 **3. Why is it important for Nginx to be enabled on boot?**
 
-Write your answer here.
+- So it automatically gets loaded and started when a server reboot occurs.
 
 ---
 
 **4. What are the risks of sharing secrets, keys, or credentials publicly?**
 
-Write your answer here.
+- Anyone can get access to them if not secured properly.
 
 ---
 
 **5. Why should cloud resources be stopped or terminated when they are no longer needed?**
 
-Write your answer here.
+- To avoid incurring unnecessary cloud bills.
 
 ---
 
@@ -385,13 +387,13 @@ Write your answer here.
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+`https://lnkd.in/p/evCezKh5`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![Linkedin Post](./screenshots/LinkedInPosts2.png)
 
 ---
 
@@ -405,17 +407,17 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Screenshots (browser, ip a, ss -tulpen, ufw status) + Notes answered
-- [ ] Task 2: Screenshots (nginx status, nginx -t, ss port 80) + Notes answered
-- [ ] Task 3: Screenshots (access log, error log, journalctl) + Notes answered
-- [ ] Task 4: Screenshots (uptime, free -h, df -h, du -sh) + Notes answered
-- [ ] Task 5: Screenshots (ls html, grep deployed by, grep try_files) + Notes answered
-- [ ] Task 6: Screenshots (nginx -t fail, nginx -t pass, curl recovery) + Notes answered
-- [ ] Task 7: Screenshots (curl failure, curl recovery) + Notes answered
-- [ ] Task 8: Security & Reliability Notes answered
-- [ ] LinkedIn post published and URL submitted
-- [ ] Full Name visible in all required screenshots
-- [ ] No sensitive data exposed
+- [✅] Task 1: Screenshots (browser, ip a, ss -tulpen, ufw status) + Notes answered
+- [✅] Task 2: Screenshots (nginx status, nginx -t, ss port 80) + Notes answered
+- [✅] Task 3: Screenshots (access log, error log, journalctl) + Notes answered
+- [✅] Task 4: Screenshots (uptime, free -h, df -h, du -sh) + Notes answered
+- [✅] Task 5: Screenshots (ls html, grep deployed by, grep try_files) + Notes answered
+- [✅] Task 6: Screenshots (nginx -t fail, nginx -t pass, curl recovery) + Notes answered
+- [✅] Task 7: Screenshots (curl failure, curl recovery) + Notes answered
+- [✅] Task 8: Security & Reliability Notes answered
+- [✅] LinkedIn post published and URL submitted
+- [✅] Full Name visible in all required screenshots
+- [✅] No sensitive data exposed
 
 ---
 

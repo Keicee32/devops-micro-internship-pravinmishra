@@ -140,13 +140,12 @@ Verify the React application is publicly accessible via the server's public IP.
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
-
+`https://lnkd.in/p/eD2dW7k6`
 ---
 
 #### Screenshot — LinkedIn post showing the deployed application
 
-Add your screenshot here.
+![Linkedin Post](./screenshots/LinkedInPosts.png)
 
 ---
 
@@ -160,17 +159,17 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Node.js and npm installed and verified (Screenshot 1)
-- [ ] Nginx installed and running (Screenshot 2)
-- [ ] Repository cloned and files verified (Screenshot 3)
-- [ ] App.js updated with full name and date (Screenshot 4)
-- [ ] Production build generated (Screenshot 5)
-- [ ] Build files deployed to Nginx web root (Screenshot 6)
-- [ ] Nginx configured and active (Screenshots 7 & 8)
-- [ ] Public IP retrieved (Screenshot 9)
-- [ ] React app accessible in browser with personal details visible (Screenshot 10)
-- [ ] LinkedIn post published and URL submitted
-- [ ] No sensitive data exposed
+- [✅] Node.js and npm installed and verified (Screenshot 1)
+- [✅] Nginx installed and running (Screenshot 2)
+- [✅] Repository cloned and files verified (Screenshot 3)
+- [✅] App.js updated with full name and date (Screenshot 4)
+- [✅] Production build generated (Screenshot 5)
+- [✅] Build files deployed to Nginx web root (Screenshot 6)
+- [✅] Nginx configured and active (Screenshots 7 & 8)
+- [✅] Public IP retrieved (Screenshot 9)
+- [✅] React app accessible in browser with personal details visible (Screenshot 10)
+- [✅] LinkedIn post published and URL submitted
+- [✅] No sensitive data exposed
 
 ---
 
