@@ -20,25 +20,25 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 1 — Browser showing the React app with your Full Name visible on the UI
 
-Add your screenshot here.
+![Assignment 2 Screenshot](./screenshots/week-03-screenshot-10-assignment-02.png)
 
 ---
 
 #### Screenshot 2 — Output of `ip a`
 
-Add your screenshot here.
+![Assignment 2 Screenshot](./screenshots/week-03-screenshot-01-assignment-03.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -tulpen`
 
-Add your screenshot here.
+![Assignment 2 Screenshot](./screenshots/week-03-screenshot-02-assignment-03.png)
 
 ---
 
 #### Screenshot 4 — Output of `sudo ufw status`
 
-Add your screenshot here.
+![Assignment 2 Screenshot](./screenshots/week-03-screenshot-03-assignment-03.png)
 
 ---
 
@@ -48,19 +48,22 @@ Answer the following in your own words:
 
 **1. What proves Nginx is listening on 0.0.0.0:80?**
 
-Write your answer here.
+From the `ss -tulpen` command, I can see the port 80 on the `LocalAddress:Port` column with the process `nginx` attached to it
 
 ---
 
 **2. What proves SSH is active on port 22?**
 
-Write your answer here.
+From the `ss -tulpen` command, I can see the port 22 on the `LocalAddress:Port` column with the process `sshd` attached to it
 
 ---
 
 **3. Did you find any unexpected open ports? Explain briefly.**
 
-Write your answer here.
+Yes i found other unexpected ports like:
+- Port 53 - which is the DNS port
+- Port 323 - which is the Internet Message Mapping Protocol
+- Port 68 - which is the Dynamic Host Configuration Protocol
 
 ---
 
@@ -74,19 +77,19 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 #### Screenshot 1 — Output of `systemctl status nginx --no-pager`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-02-assignment-02.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t`
 
-Add your screenshot here.
+![Assignment 2 Screenshot](./screenshots/week-03-screenshot-04-assignment-03.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -lptn '( sport = :80 )'`
 
-Add your screenshot here.
+![Assignment 2 Screenshot](./screenshots/week-03-screenshot-05-assignment-03.png)
 
 ---
 
@@ -96,7 +99,7 @@ Answer the following in your own words:
 
 **1. What happens if Nginx fails to restart in production?**
 
-Write your answer here.
+- If Nginx fails to restart in production, your web server immediately stops processing incoming traffic, resulting in site-wide downtime. Users will see 502 Bad Gateway or connection timeout errors, and new requests to the server will drop completely
 
 ---
 
@@ -116,19 +119,19 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 #### Screenshot 1 — Output of `sudo tail -n 30 /var/log/nginx/access.log`
 
-Add your screenshot here.
+![Assignment 2 Screenshot](./screenshots/week-03-screenshot-06-assignment-03.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo tail -n 30 /var/log/nginx/error.log`
 
-Add your screenshot here.
+![Assignment 2 Screenshot](./screenshots/week-03-screenshot-07-assignment-03.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo journalctl -u nginx --no-pager -n 50`
 
-Add your screenshot here.
+![Assignment 2 Screenshot](./screenshots/week-03-screenshot-08-assignment-03.png)
 
 ---
 
@@ -141,19 +144,20 @@ Answer the following in your own words:
 - If yes, mention 1–2 example error lines from the logs and explain what each one means in simple terms.
 - If no, explain what it means if the error log is empty or shows no recent errors during your check.
 
-Write your answer here.
+- No, there were no errors. It means all traffic from the internet were routed correctly and all files requested was available (No 400, 500 errors)
 
 ---
 
 **2. If there were no errors, what does that indicate about the system?**
 
-Write your answer here.
+- Routing is done correctly and Nginx can find the requested files 
 
 ---
 
 **3. Based on the access logs, were your curl requests visible in the log entries? What does that prove about traffic flow?**
 
-Write your answer here.
+- The core Nginx engine is functioning properly
+- Logging is working correctly
 
 ---
 
@@ -167,25 +171,25 @@ Assess server capacity and detect potential performance or failure risks.
 
 #### Screenshot 1 — Output of `uptime`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-09-assignment-03.png)
 
 ---
 
 #### Screenshot 2 — Output of `free -h`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-10-assignment-03.png)
 
 ---
 
 #### Screenshot 3 — Output of `df -h`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-11-assignment-03.png)
 
 ---
 
 #### Screenshot 4 — Output of `sudo du -sh /var/* | sort -h`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-12-assignment-03.png)
 
 ---
 
@@ -195,13 +199,15 @@ Answer the following in your own words:
 
 **1. Which resource looks most critical right now? (CPU/load, memory, or disk) Explain why.**
 
-Write your answer here.
+The resource that looks critical for me is the Memory. On the instance, I currently have 200+MB of free memory out of almost 1GB of memory. 
 
 ---
 
 **2. What happens if disk becomes 100% full in a production server?**
 
-Write your answer here.
+- SSH becomes difficult
+- Processes start to crash because they can't write to disk
+- Database corruption may occur
 
 ---
 
@@ -215,19 +221,19 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 1 — Output of `ls -lah /var/www/html | head -n 20`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-13-assignment-03.png)
 
 ---
 
 #### Screenshot 2 — Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-14-assignment-03.png)
 
 ---
 
 #### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-15-assignment-03.png)
 
 ---
 
@@ -251,19 +257,19 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 1 — Output of `sudo nginx -t` showing the syntax error (broken config)
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-16-assignment-03.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-17-assignment-03.png)
 
 ---
 
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-18-assignment-03.png)
 
 ---
 
@@ -273,19 +279,19 @@ Answer the following in your own words:
 
 **1. What caused the configuration failure?**
 
-Write your answer here.
+- The root directive in the Nginx config didn't have the closing semicolon.
 
 ---
 
 **2. How did you fix the issue?**
 
-Write your answer here.
+- I added the missing semicolon to the root directive.
 
 ---
 
 **3. How can you avoid this kind of issue in real production systems?**
 
-Write your answer here.
+- Being thorough while writing the nginx config.
 
 ---
 
@@ -299,13 +305,13 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-19-assignment-03.png)
 
 ---
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-18-assignment-03.png)
 
 ---
 
