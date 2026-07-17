@@ -20,13 +20,13 @@ Verify that Bash is available on your system and create a clean workspace for th
 
 #### Screenshot 1 — Output of `echo $SHELL` and `bash --version`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-01-assignment-05.png)
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `ls -lah` showing the scripts directory
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-02-assignment-05.png)
 
 ---
 
@@ -36,7 +36,7 @@ Answer the following in your own words:
 
 **1. What is Bash?**
 
-Add your answer here.
+- Bash (short for "Bourne-Again SHell") is a command-line interpreter and scripting language. It allows you to interact directly with your computer's operating system by typing text commands. It serves as the default shell on most Linux distributions and macOS.
 
 ---
 
@@ -48,7 +48,7 @@ Add your answer here.
 
 **3. Why is it important to confirm the Bash version before writing scripts?**
 
-Add your answer here.
+- This is because different versions allow specific features than others.
 
 ---
 
@@ -62,19 +62,19 @@ Create your first Bash script, make it executable, and run it from the terminal.
 
 #### Screenshot 1 — Content of `first-script.sh`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-03-assignment-05.png)
 
 ---
 
 #### Screenshot 2 — Output of `./first-script.sh`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-04-assignment-05.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -l first-script.sh` showing executable permission
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-05-assignment-05.png)
 
 ---
 
@@ -84,19 +84,19 @@ Answer the following in your own words:
 
 **1. What is the purpose of `#!/bin/bash`?**
 
-Add your answer here.
+- To tell the system to run the script using the bash shell.
 
 ---
 
 **2. Why do we use `chmod +x` before running a script?**
 
-Add your answer here.
+- So we can execute the script. It makes the script executable.
 
 ---
 
 **3. What is the difference between running a script using `./script.sh` and `bash script.sh`?**
 
-Add your answer here.
+- The primary difference is that ./script.sh executes the script as a standalone program using the interpreter defined in its shebang line, whereas bash script.sh explicitly forces the script to run inside the Bash shell interpreter, completely ignoring any shebang.
 
 ---
 
@@ -110,13 +110,13 @@ Use variables to store and display user-related information.
 
 #### Screenshot 1 — Content of `user-info.sh`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-06-assignment-05.png)
 
 ---
 
 #### Screenshot 2 — Output of `./user-info.sh`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-07-assignment-05.png)
 
 ---
 
@@ -126,19 +126,19 @@ Answer the following in your own words:
 
 **1. What is a variable in Bash?**
 
-Add your answer here.
+- A variable in Bash is a temporary storage location identified by a name that holds a text string or a numeric value.
 
 ---
 
 **2. Why should we avoid spaces around the `=` sign when creating variables?**
 
-Add your answer here.
+- Prevents syntax errors and misinterpretation by the interpreter or compiler. 
 
 ---
 
 **3. How do you access the value stored inside a Bash variable?**
 
-Add your answer here.
+- You access the value of a Bash variable by prefixing its name with a dollar sign ($).
 
 ---
 
@@ -152,13 +152,13 @@ Use arrays and loops to print a checklist of tools used in Bash scripting.
 
 #### Screenshot 1 — Content of `tools-checklist.sh`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-08-assignment-05.png)
 
 ---
 
 #### Screenshot 2 — Output of `./tools-checklist.sh`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-09-assignment-05.png)
 
 ---
 
@@ -168,25 +168,24 @@ Answer the following in your own words:
 
 **1. What is an array in Bash?**
 
-Add your answer here.
-
+- An array in Bash is a variable that holds multiple values under a single name.
 ---
 
 **2. Why are arrays useful in scripts?**
 
-Add your answer here.
+- Arrays allow you to store and manipulate multiple related values under a single variable name. 
 
 ---
 
 **3. What does `"${tools[@]}"` mean?**
 
-Add your answer here.
+- It expands a stored array into separate, individually quoted arguments.
 
 ---
 
 **4. What is the purpose of the `for` loop in this script?**
 
-Add your answer here.
+- for loop in a script is to execute a specific block of code repeatedly. It automates repetitive tasks and is primarily used to either iterate through a collection of items (such as a list, array, or string) or run a command a precise, known number of times.
 
 ---
 
@@ -200,7 +199,7 @@ Use loops to repeat a task multiple times.
 
 #### Screenshot 1 — Content of `counter.sh`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-10-assignment-05.png)
 
 ---
 
@@ -436,18 +435,18 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Environment setup verified, workspace created (Screenshots 1–2, Notes answered)
-- [ ] Task 2: First script created, executed, permissions verified (Screenshots 1–3, Notes answered)
-- [ ] Task 3: Variables script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 4: Arrays and loops script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 5: Counter loop script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 6: File validation script created and run (Screenshots 1–3, Notes answered)
-- [ ] Task 7: Pass/Retry conditional script tested with both values (Screenshots 1–4, Notes answered)
-- [ ] Task 8: Final automation script created and run (Screenshots 1–3, Notes answered)
-- [ ] All scripts run without errors
-- [ ] Full Name visible in all required screenshots
-- [ ] LinkedIn post published and URL submitted
-- [ ] No sensitive data exposed
+- [✅] Task 1: Environment setup verified, workspace created (Screenshots 1–2, Notes answered)
+- [✅] Task 2: First script created, executed, permissions verified (Screenshots 1–3, Notes answered)
+- [✅] Task 3: Variables script created and run (Screenshots 1–2, Notes answered)
+- [✅] Task 4: Arrays and loops script created and run (Screenshots 1–2, Notes answered)
+- [✅] Task 5: Counter loop script created and run (Screenshots 1–2, Notes answered)
+- [✅] Task 6: File validation script created and run (Screenshots 1–3, Notes answered)
+- [✅] Task 7: Pass/Retry conditional script tested with both values (Screenshots 1–4, Notes answered)
+- [✅] Task 8: Final automation script created and run (Screenshots 1–3, Notes answered)
+- [✅] All scripts run without errors
+- [✅] Full Name visible in all required screenshots
+- [✅] LinkedIn post published and URL submitted
+- [✅] No sensitive data exposed
 
 ---
 
