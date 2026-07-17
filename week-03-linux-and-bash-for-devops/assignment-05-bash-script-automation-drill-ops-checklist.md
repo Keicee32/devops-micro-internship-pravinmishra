@@ -205,7 +205,7 @@ Use loops to repeat a task multiple times.
 
 #### Screenshot 2 — Output of `./counter.sh`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-11-assignment-05.png)
 
 ---
 
@@ -215,25 +215,25 @@ Answer the following in your own words:
 
 **1. What is a loop?**
 
-Add your answer here.
+- A loop is an iteration 
 
 ---
 
 **2. Why do we use loops in Bash scripting?**
 
-Add your answer here.
+- To automate repetitive task and eliminate manual typing.
 
 ---
 
 **3. How many times did the loop run in your script?**
 
-Add your answer here.
+- The loop ran 5 times.
 
 ---
 
 **4. What would you change if you wanted the loop to run 10 times?**
 
-Add your answer here.
+- I'd add more numbers to the for loop. 5 more numbers precisely.
 
 ---
 
@@ -247,19 +247,19 @@ Use file checks and conditionals to verify whether files and directories exist.
 
 #### Screenshot 1 — Output of `ls -lah ../test-folder`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-12-assignment-05.png)
 
 ---
 
 #### Screenshot 2 — Content of `file-check.sh`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-13-assignment-05.png)
 
 ---
 
 #### Screenshot 3 — Output of `./file-check.sh`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-14-assignment-05.png)
 
 ---
 
@@ -269,25 +269,27 @@ Answer the following in your own words:
 
 **1. What does `-d` check in Bash?**
 
-Add your answer here.
+- It checks if a directory exists
 
 ---
 
 **2. What does `-f` check in Bash?**
 
-Add your answer here.
+- It checks if a file exists
 
 ---
 
 **3. Why should file and directory paths be stored in variables?**
 
-Add your answer here.
+- To maintain code quality. Having them stored as variables means, you only change them once and it takes effect everywhere the variable is called.
 
 ---
 
 **4. What happens if the file does not exist?**
 
-Add your answer here.
+- It prints the following below:
+* Directory does not exist: ../test-folder
+* File does not exist: ../test-folder/student-info.txt
 
 ---
 
@@ -301,25 +303,25 @@ Use if-else conditionals to make decisions based on a variable value.
 
 #### Screenshot 1 — Content of `score-check.sh` with `score=85`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-15-assignment-05.png)
 
 ---
 
 #### Screenshot 2 — Output showing `Result: Pass`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-16-assignment-05.png)
 
 ---
 
 #### Screenshot 3 — Content of `score-check.sh` with `score=55`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-17-assignment-05.png)
 
 ---
 
 #### Screenshot 4 — Output showing `Result: Retry`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-18-assignment-05.png)
 
 ---
 
@@ -329,26 +331,25 @@ Answer the following in your own words:
 
 **1. What is the purpose of if-else in Bash?**
 
-Add your answer here.
+- The purpose of an if-else statement in Bash is to make decisions in a script by executing different blocks of code based on whether a condition is true or false.
 
 ---
 
 **2. What does `-ge` mean?**
 
-Add your answer here.
+- Greater than or equal to
 
 ---
 
 **3. Why should conditions be tested with different values?**
 
-Add your answer here.
+- To see the outcome of each test case in the if-else statement.
 
 ---
 
 **4. How can conditionals help in automation scripts?**
 
-Add your answer here.
-
+- Conditionals help in automation scripts by allowing the script to make decisions based on the current state of the system or the result of a command.
 ---
 
 # Task 8 — Functions: Final Bash Automation Script
@@ -361,20 +362,19 @@ Create a final Bash script using functions to organize reusable code.
 
 #### Screenshot 1 — Content of `final-automation.sh`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-18-assignment-05.png)
 
 ---
 
 #### Screenshot 2 — Output of `./final-automation.sh`
 
-Add your screenshot here.
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-18-assignment-05.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -lah` showing all created scripts
 
-Add your screenshot here.
-
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-18-assignment-05.png)
 ---
 
 ### Notes
