@@ -54,7 +54,11 @@ You can publish your blog on:
 
 Blog Link:
 
+<<<<<<< HEAD
 `https://www.linkedin.com/pulse/reflection-week-2-kelechi-egekenze-rhv5e`
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
@@ -118,7 +122,11 @@ Below is a sample CLAUDE file:
 
 ### LinkedIn Post Link:
 
+<<<<<<< HEAD
 `https://www.linkedin.com/posts/kelechi-egekenze_before-discussing-the-claudemd-file-it-share-7481653232772030464-WWRF/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADT58zgB1d_Na5CgQd9L3ayPC9yKCe5WLA4`
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 

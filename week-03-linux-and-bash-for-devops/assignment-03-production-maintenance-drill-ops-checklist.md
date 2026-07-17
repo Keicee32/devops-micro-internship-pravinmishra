@@ -387,7 +387,11 @@ Answer the following in your own words:
 
 Paste your LinkedIn post URL here:
 
+<<<<<<< HEAD
 `https://lnkd.in/p/evCezKh5`
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 

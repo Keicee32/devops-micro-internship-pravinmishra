@@ -156,7 +156,11 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 Paste your link here:
 
+<<<<<<< HEAD
 `https://www.linkedin.com/pulse/architect-behind-curtain-tracing-rise-infrastructure-kelechi-egekenze-yu2ue`
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
@@ -356,7 +360,7 @@ Learn to do at least one hour of focus learning daily
 
 Paste your LinkedIn post link here:
 
-`__________________________`
+`Add your URL here`
 
 ---
 
