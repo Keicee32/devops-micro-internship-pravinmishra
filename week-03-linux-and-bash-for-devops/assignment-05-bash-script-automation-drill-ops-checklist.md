@@ -362,19 +362,19 @@ Create a final Bash script using functions to organize reusable code.
 
 #### Screenshot 1 — Content of `final-automation.sh`
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-18-assignment-05.png)
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-19-assignment-05.png)
 
 ---
 
 #### Screenshot 2 — Output of `./final-automation.sh`
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-18-assignment-05.png)
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-20-assignment-05.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -lah` showing all created scripts
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-18-assignment-05.png)
+![Assignment 3 Screenshot](./screenshots/week-03-screenshot-21-assignment-05.png)
 ---
 
 ### Notes
@@ -383,25 +383,29 @@ Answer the following in your own words:
 
 **1. What is a function in Bash?**
 
-Add your answer here.
+- A function is a reusable piece of code.
 
 ---
 
 **2. Why are functions useful in scripts?**
 
-Add your answer here.
+- Functions are essential in scripts because they enable code reusability and modularity
 
 ---
 
 **3. Which functions did you create in this script?**
 
-Add your answer here.
+- Four functions were created, namely:
+* print_header
+* print_user_details
+* check_files
+* print_tools
 
 ---
 
 **4. How does this final script combine variables, arrays, loops, conditionals, files, and functions?**
 
-Add your answer here.
+- It combines them perfectly. It uses variables to store reusable information such as my name, assignment name, directory path, and file path. It uses an array to store a list of Bash tools and a for loop to iterate through the array and print each tool. Conditionals (if-else) are used to check whether the required directory and file exist and display the appropriate success or failure message. The script also works with files by verifying the existence of a directory and a text file using the -d and -f test operators. Finally, functions organize the script into reusable sections (print_header, print_user_details, check_files, and print_tools), making the code cleaner, easier to read, and easier to maintain. Together, these features demonstrate how Bash can be used to automate repetitive tasks in a structured and efficient way.
 
 ---
 
@@ -413,13 +417,13 @@ Add your answer here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/kelechi-egekenze_devops-bash-linux-share-7484022210081361920-waYv/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADT58zgB1d_Na5CgQd9L3ayPC9yKCe5WLA4`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![Linkedin Post](./screenshots/LinkedinPost5.png)
 
 ---
 
