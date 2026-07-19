@@ -20,13 +20,13 @@ Verify that Bash is available on your system and create a clean workspace for th
 
 #### Screenshot 1 — Output of `echo $SHELL` and `bash --version`
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-01-assignment-05.png)
+![Assignment 5 Screenshot](./screenshots/week-03-screenshot-01-assignment-05.png)
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `ls -lah` showing the scripts directory
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-02-assignment-05.png)
+![Assignment 5 Screenshot](./screenshots/week-03-screenshot-02-assignment-05.png)
 
 ---
 
@@ -62,19 +62,19 @@ Create your first Bash script, make it executable, and run it from the terminal.
 
 #### Screenshot 1 — Content of `first-script.sh`
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-03-assignment-05.png)
+![Assignment 5 Screenshot](./screenshots/week-03-screenshot-03-assignment-05.png)
 
 ---
 
 #### Screenshot 2 — Output of `./first-script.sh`
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-04-assignment-05.png)
+![Assignment 5 Screenshot](./screenshots/week-03-screenshot-04-assignment-05.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -l first-script.sh` showing executable permission
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-05-assignment-05.png)
+![Assignment 5 Screenshot](./screenshots/week-03-screenshot-05-assignment-05.png)
 
 ---
 
@@ -110,13 +110,13 @@ Use variables to store and display user-related information.
 
 #### Screenshot 1 — Content of `user-info.sh`
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-06-assignment-05.png)
+![Assignment 5 Screenshot](./screenshots/week-03-screenshot-06-assignment-05.png)
 
 ---
 
 #### Screenshot 2 — Output of `./user-info.sh`
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-07-assignment-05.png)
+![Assignment 5 Screenshot](./screenshots/week-03-screenshot-07-assignment-05.png)
 
 ---
 
@@ -152,13 +152,13 @@ Use arrays and loops to print a checklist of tools used in Bash scripting.
 
 #### Screenshot 1 — Content of `tools-checklist.sh`
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-08-assignment-05.png)
+![Assignment 5 Screenshot](./screenshots/week-03-screenshot-08-assignment-05.png)
 
 ---
 
 #### Screenshot 2 — Output of `./tools-checklist.sh`
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-09-assignment-05.png)
+![Assignment 5 Screenshot](./screenshots/week-03-screenshot-09-assignment-05.png)
 
 ---
 
@@ -199,13 +199,13 @@ Use loops to repeat a task multiple times.
 
 #### Screenshot 1 — Content of `counter.sh`
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-10-assignment-05.png)
+![Assignment 5 Screenshot](./screenshots/week-03-screenshot-10-assignment-05.png)
 
 ---
 
 #### Screenshot 2 — Output of `./counter.sh`
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-11-assignment-05.png)
+![Assignment 5 Screenshot](./screenshots/week-03-screenshot-11-assignment-05.png)
 
 ---
 
@@ -247,19 +247,19 @@ Use file checks and conditionals to verify whether files and directories exist.
 
 #### Screenshot 1 — Output of `ls -lah ../test-folder`
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-12-assignment-05.png)
+![Assignment 5 Screenshot](./screenshots/week-03-screenshot-12-assignment-05.png)
 
 ---
 
 #### Screenshot 2 — Content of `file-check.sh`
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-13-assignment-05.png)
+![Assignment 5 Screenshot](./screenshots/week-03-screenshot-13-assignment-05.png)
 
 ---
 
 #### Screenshot 3 — Output of `./file-check.sh`
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-14-assignment-05.png)
+![Assignment 5 Screenshot](./screenshots/week-03-screenshot-14-assignment-05.png)
 
 ---
 
@@ -303,25 +303,25 @@ Use if-else conditionals to make decisions based on a variable value.
 
 #### Screenshot 1 — Content of `score-check.sh` with `score=85`
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-15-assignment-05.png)
+![Assignment 5 Screenshot](./screenshots/week-03-screenshot-15-assignment-05.png)
 
 ---
 
 #### Screenshot 2 — Output showing `Result: Pass`
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-16-assignment-05.png)
+![Assignment 5 Screenshot](./screenshots/week-03-screenshot-16-assignment-05.png)
 
 ---
 
 #### Screenshot 3 — Content of `score-check.sh` with `score=55`
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-17-assignment-05.png)
+![Assignment 5 Screenshot](./screenshots/week-03-screenshot-17-assignment-05.png)
 
 ---
 
 #### Screenshot 4 — Output showing `Result: Retry`
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-18-assignment-05.png)
+![Assignment 5 Screenshot](./screenshots/week-03-screenshot-18-assignment-05.png)
 
 ---
 
@@ -362,19 +362,19 @@ Create a final Bash script using functions to organize reusable code.
 
 #### Screenshot 1 — Content of `final-automation.sh`
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-19-assignment-05.png)
+![Assignment 5 Screenshot](./screenshots/week-03-screenshot-19-assignment-05.png)
 
 ---
 
 #### Screenshot 2 — Output of `./final-automation.sh`
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-20-assignment-05.png)
+![Assignment 5 Screenshot](./screenshots/week-03-screenshot-20-assignment-05.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -lah` showing all created scripts
 
-![Assignment 3 Screenshot](./screenshots/week-03-screenshot-21-assignment-05.png)
+![Assignment 5 Screenshot](./screenshots/week-03-screenshot-21-assignment-05.png)
 ---
 
 ### Notes

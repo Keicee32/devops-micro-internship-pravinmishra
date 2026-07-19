@@ -20,13 +20,13 @@ Confirm that Nginx and the React application are healthy before building the aut
 
 #### Screenshot 1 — Output of `systemctl is-active nginx`, `ss -ltn | grep ':80'`, and `curl -I http://localhost`
 
-Add your screenshot here.
+![Assignment 6 Screenshot](./screenshots/week-03-screenshot-01-assignment-06.png)
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `find . -maxdepth 4 -type d | sort` showing the workspace folder structure
 
-Add your screenshot here.
+![Assignment 6 Screenshot](./screenshots/week-03-screenshot-02-assignment-06.png)
 
 ---
 
@@ -36,19 +36,19 @@ Answer the following in your own words:
 
 **1. What proves that Nginx is running?**
 
-Add your answer here.
+- The systemctl status nginx command shows that nginx is active and running. Also, the systemctl is-active nginx command shows nginx is active.
 
 ---
 
 **2. What proves that the server is listening for HTTP traffic?**
 
-Add your answer here.
+- The ss -ltn | grep ':80' shows port 80 is listening and that's the default port for HTTP
 
 ---
 
 **3. Why must you capture a healthy baseline before simulating an incident?**
 
-Add your answer here.
+- So you can tell the incident occurred given the baseline was once healthy.
 
 ---
 
@@ -62,7 +62,7 @@ Tell Claude exactly what this project does and what it is not allowed to do.
 
 #### Screenshot 3 — CLAUDE.md open in VS Code showing all four sections (Project Overview, Incident Workflow, Safety Rules, Output Rules)
 
-Add your screenshot here.
+![Assignment 6 Screenshot](./screenshots/week-03-screenshot-03-assignment-06.png)
 
 ---
 
@@ -72,19 +72,19 @@ Answer the following in your own words:
 
 **1. Why should Claude receive project-specific operational rules?**
 
-Add your answer here.
+- So it doesn't work outside the scope of the project.
 
 ---
 
 **2. Why is the human required to execute the recovery command?**
 
-Add your answer here.
+- So they accept or decline after making sure the changes align with the project scope.
 
 ---
 
 **3. Which rule prevents Claude from making an unsupported diagnosis?**
 
-Add your answer here.
+- Safety Rules
 
 ---
 
@@ -98,7 +98,7 @@ Use Claude Code to inspect the environment and produce a read-only plan before c
 
 #### Screenshot 4 — Claude Code showing the five-check plan and read-only inspection results
 
-Add your screenshot here.
+![Assignment 6 Screenshot](./screenshots/week-03-screenshot-04-assignment-06.png)
 
 ---
 
@@ -108,19 +108,19 @@ Answer the following in your own words:
 
 **1. Which part of this task represents the Gather phase?**
 
-Add your answer here.
+- The incident workflow task
 
 ---
 
 **2. Did Claude follow the instruction not to create files? How did you verify this?**
 
-Add your answer here.
+- Yes it did. There were no new files created, it just gave descriptions of what it was asked to do.
 
 ---
 
 **3. Why is planning before coding useful in DevOps automation?**
 
-Add your answer here.
+- So everything goes smoothly with little to no errors.
 
 ---
 
@@ -134,25 +134,25 @@ Create one Bash script that gathers consistent Linux and Nginx health evidence.
 
 #### Screenshot 5 — Top section of `linux-triage.sh` showing variables, thresholds, and the checks array
 
-Add your screenshot here.
+![Assignment 6 Screenshot](./screenshots/week-03-screenshot-05-assignment-06.png)
 
 ---
 
 #### Screenshot 6 — Middle section showing check functions and conditionals
 
-Add your screenshot here.
+![Assignment 6 Screenshot](./screenshots/week-03-screenshot-06-assignment-06.png)
 
 ---
 
 #### Screenshot 7 — Bottom section showing the loop, summary function, and exit behavior
 
-Add your screenshot here.
+![Assignment 6 Screenshot](./screenshots/week-03-screenshot-07-assignment-06.png)
 
 ---
 
 #### Screenshot 8 — Output of `bash -n scripts/linux-triage.sh` (no syntax errors) and `ls -l scripts/linux-triage.sh` showing executable permission
 
-Add your screenshot here.
+![Assignment 6 Screenshot](./screenshots/week-03-screenshot-08-assignment-06.png)
 
 ---
 
@@ -162,31 +162,33 @@ Answer the following in your own words:
 
 **1. What is stored in the checks array?**
 
-Add your answer here.
+- All check functions
 
 ---
 
 **2. How does the `for` loop use that array?**
 
-Add your answer here.
+- It loops through each function in the array and runs each one individually.
 
 ---
 
 **3. Why are the health checks separated into functions?**
 
-Add your answer here.
+- For ease of reusability.
 
 ---
 
 **4. What is the purpose of `$(...)` in this script?**
 
-Add your answer here.
+- In this script, $(...) is used for command substitution.
+
+It runs the command inside the parentheses and inserts its output into the surrounding shell expression. For example, in the script:
 
 ---
 
 **5. Why does the script use different exit codes for HEALTHY, WARN, and FAIL?**
 
-Add your answer here.
+- The script uses different exit codes to communicate the severity of the incident state to other tools or automation.
 
 ---
 
@@ -200,13 +202,13 @@ Run the Bash script against the healthy server and verify that it creates a repo
 
 #### Screenshot 9 — Output of `./scripts/linux-triage.sh` showing your Full Name and all five check results
 
-Add your screenshot here.
+![Assignment 6 Screenshot](./screenshots/week-03-screenshot-09-assignment-06.png)
 
 ---
 
 #### Screenshot 10 — Output showing the captured exit code and final summary
 
-Add your screenshot here.
+![Assignment 6 Screenshot](./screenshots/week-03-screenshot-10-assignment-06.png)
 
 ---
 
@@ -216,25 +218,33 @@ Answer the following in your own words:
 
 **1. What is the overall status of your healthy baseline?**
 
-Add your answer here.
+- The overall status of the healthy baseline is HEALTHY. 
 
 ---
 
 **2. Which exact Linux evidence proves the application is serving traffic?**
 
-Add your answer here.
+- The strongest evidence is:
+
+The service is active: systemctl reports nginx as active.
+The port is listening on port 80: ss shows 0.0.0.0:80 and [::]:80.
+The application responds over HTTP: curl returned status code 200 from http://localhost.
+These checks together prove that the application is currently serving traffic.
 
 ---
 
 **3. Did your script return exit code 0 or 1? Explain why.**
 
-Add your answer here.
+It returned exit code 0. Which means, everything worked as it should.
 
 ---
 
 **4. What is the difference between a warning and a failure in this script?**
 
-Add your answer here.
+- In this script, a warning and a failure are different levels of severity:
+
+Warning: the check detected a non-ideal condition, but it is not a complete outage. The script records it with [WARN] and increments the warning count.
+Failure: the check detected a serious problem or a broken condition. The script records it with [FAIL] and increments the failure count.
 
 ---
 
@@ -248,13 +258,13 @@ Turn the Bash script into a reusable, manually invoked Agentic AI workflow.
 
 #### Screenshot 11 — `SKILL.md` showing the frontmatter, allowed tool restrictions, and safety rules
 
-Add your screenshot here.
+![Assignment 6 Screenshot](./screenshots/week-03-screenshot-11-assignment-06.png)
 
 ---
 
 #### Screenshot 12 — `/linux-triage` output for the healthy server
 
-Add your screenshot here.
+![Assignment 6 Screenshot](./screenshots/week-03-screenshot-12-assignment-06.png)
 
 ---
 
@@ -264,25 +274,43 @@ Answer the following in your own words:
 
 **1. Why does this skill have Bash, Read, and Grep, but not Write?**
 
-Add your answer here.
+- We don't want any changes made to the file.
 
 ---
 
 **2. Why is `disable-model-invocation: true` useful for this skill?**
 
-Add your answer here.
+- So a human intervention is needed to trigger the command.
 
 ---
 
 **3. What part is performed by Bash, and what part is performed by Claude?**
 
-Add your answer here.
+- In this workflow:
+
+Bash performs the evidence gathering:
+
+runs the triage script
+collects system facts such as service status, port listening, HTTP response, disk usage, memory, and logs
+writes the report to a file
+Claude performs the analysis:
+
+reads the report
+interprets the findings
+explains the likely cause and suggests a safe recovery step
+does not make changes or execute recovery actions automatically
+So Bash provides the evidence, and Claude analyzes it and recommends the next action.
 
 ---
 
 **4. Why is this better than asking Claude "Is my server healthy?" without giving it evidence?**
 
-Add your answer here.
+- Asking “Is my server healthy?” without evidence makes Claude guess from general knowledge or assumptions. This approach is stronger because it:
+
+uses fresh system data from the triage script,
+ties conclusions to concrete checks such as service status, port listening, HTTP response, disk, memory, and logs,
+reduces hallucinations and unsupported claims,
+and gives a safe, reviewable next step instead of a vague opinion.
 
 ---
 
@@ -296,19 +324,19 @@ Create a controlled service failure, gather evidence through Bash, and let Claud
 
 #### Screenshot 13 — Output showing Nginx is inactive and the HTTP request fails
 
-Add your screenshot here.
+![Assignment 6 Screenshot](./screenshots/week-03-screenshot-13-assignment-06.png)
 
 ---
 
 #### Screenshot 14 — `/linux-triage` output showing failed evidence, most likely cause, and a suggested recovery command
 
-Add your screenshot here.
+![Assignment 6 Screenshot](./screenshots/week-03-screenshot-14-assignment-06.png)
 
 ---
 
 #### Screenshot 15 — `incident-failure-report.txt` showing the failed checks and your Full Name
 
-Add your screenshot here.
+![Assignment 6 Screenshot](./screenshots/week-03-screenshot-15-assignment-06.png)
 
 ---
 
@@ -318,31 +346,37 @@ Answer the following in your own words:
 
 **1. Which three checks failed?**
 
-Add your answer here.
+- [FAIL] Nginx service is not active
+[FAIL] Port 80 is not listening
+[FAIL] Local HTTP check returned status 000
 
 ---
 
 **2. What evidence supports the conclusion that Nginx is unavailable?**
 
-Add your answer here.
+- [FAIL] Nginx service is not active
 
 ---
 
 **3. Did Claude execute the recovery command? Why is that important?**
 
-Add your answer here.
+- No it didn't. Because we told it not to.
 
 ---
 
 **4. Which phase of the Agentic Loop is represented by the Bash report?**
 
-Add your answer here.
+- The Bash report represents the “observe” phase of the Agentic Loop.
+
+It gathers evidence from the system so the agent can analyze the current state before deciding on any action.
 
 ---
 
 **5. Which phase is represented by Claude's explanation?**
 
-Add your answer here.
+- Claude’s explanation represents the “analyze” phase of the Agentic Loop.
+
+It takes the observed evidence from the Bash report, interprets it, and explains what it means.
 
 ---
 
@@ -356,25 +390,25 @@ Recover the service as the human operator and prove that the system is healthy a
 
 #### Screenshot 16 — Output showing Nginx is active and `curl -I http://localhost` returns 200 OK
 
-Add your screenshot here.
+![Assignment 6 Screenshot](./screenshots/week-03-screenshot-16-assignment-06.png)
 
 ---
 
 #### Screenshot 17 — Second `/linux-triage` output showing successful recovery with no FAIL results
 
-Add your screenshot here.
+![Assignment 6 Screenshot](./screenshots/week-03-screenshot-17-assignment-06.png)
 
 ---
 
 #### Screenshot 18 — Output of `ls -lah reports` showing both `incident-failure-report.txt` and `recovery-report.txt`
 
-Add your screenshot here.
+![Assignment 6 Screenshot](./screenshots/week-03-screenshot-18-assignment-06.png)
 
 ---
 
 #### Screenshot 19 — `incident-summary.md` showing all required sections and your Full Name
 
-Add your screenshot here.
+![Assignment 6 Screenshot](./screenshots/week-03-screenshot-19-assignment-06.png)
 
 ---
 
@@ -384,31 +418,39 @@ Answer the following in your own words:
 
 **1. What action did you execute manually?**
 
-Add your answer here.
+- `sudo systemctl start nginx` command was ran
 
 ---
 
 **2. What evidence proves that the service recovered?**
 
-Add your answer here.
+- All health checks passed.
 
 ---
 
 **3. Why is the second triage run necessary?**
 
-Add your answer here.
+- To make sure nginx started successfully so we can generate a new report.
 
 ---
 
 **4. What could go wrong if an AI agent automatically restarted every failed service?**
 
-Add your answer here.
+- It could make the situation worse or hide the real cause.
+
+Potential problems:
+
+A service might fail again immediately, causing repeated restarts and more noise.
+The agent might restart the wrong service and disrupt unrelated workloads.
+It could mask a deeper issue such as bad configuration, dependency failures, or resource exhaustion.
+It could create unsafe side effects on a live system without human review.
+That is why the workflow is designed to recommend a recovery action but not execute it automatically.
 
 ---
 
 **5. In one sentence, explain the difference between using AI as a chatbot and using AI in this agentic workflow.**
 
-Add your answer here.
+- A chatbot answers questions from general conversation, while this agentic workflow uses AI to observe evidence, analyze it, and recommend or guide a safe action.
 
 ---
 
@@ -416,51 +458,67 @@ Add your answer here.
 
 Fill in all seven sections below in your own words.
 
-**Full Name:** Add your full name here
+**Full Name:** Egekenze Kelechi
 
-**Date:** DD/MM/YYYY
+**Date:** 19/07/2026
 
 ---
 
 **1. Reported Symptom**
 
-Add your answer here.
+- Nginx appears to be down or not serving traffic.
 
 ---
 
 **2. Evidence Collected**
 
-Add your answer here.
+- The latest triage report shows:
+
+[FAIL] Nginx service is not active
+[FAIL] Port 80 is not listening
+[FAIL] Local HTTP check returned status 000
+The recent nginx logs show:
+
+“Stopping A high performance web server and a reverse proxy server...”
+“nginx.service: Deactivated successfully.”
+“Stopped A high performance web server and a reverse proxy server.”
 
 ---
 
 **3. Most Likely Cause**
 
-Add your answer here.
+- The most likely cause is a recent nginx service stop or failure event that left the web server inactive and not listening on port 80.
 
 ---
 
 **4. Human-Approved Recovery Action**
 
-Add your answer here.
+- A human should review the nginx service state and manually start or troubleshoot nginx, depending on the cause of the stop.
 
 ---
 
 **5. Verification**
 
-Add your answer here.
+- Verification was performed by rerunning the triage script:
+
+Overall status: FAIL
+Script exit code: 2
+This confirmed that nginx is still not serving traffic.
 
 ---
 
 **6. Safety Decision**
 
-Add your answer here.
+- No automatic restart, package change, or configuration edit was performed. The safest course is to let a human review and approve the recovery action.
 
 ---
 
 **7. Agentic Loop Mapping**
 
-Add your answer here.
+- Observe: Bash collected system evidence and generated the report
+Analyze: Claude interpreted the evidence and identified the likely cause
+Act: The human approves and performs the recovery action manually
+Verify: The triage script was run again to confirm the issue remains present
 
 ---
 
@@ -472,13 +530,13 @@ Add your answer here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/kelechi-egekenze_devops-linux-nginx-share-7484442842350731264-VQ5U/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADT58zgB1d_Na5CgQd9L3ayPC9yKCe5WLA4`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![Linkedin Post](./screenshots/LinkedinPost6.png)
 
 ---
 
@@ -486,7 +544,7 @@ Add your screenshot here.
 
 Paste the URL of your GitHub folder or repository containing the assignment files here:
 
-`Add your URL here`
+`https://github.com/Keicee32/devops-micro-internship-pravinmishra`
 
 ---
 
