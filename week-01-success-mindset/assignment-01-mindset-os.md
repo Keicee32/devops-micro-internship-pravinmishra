@@ -156,11 +156,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 Paste your link here:
 
-<<<<<<< HEAD
 `https://www.linkedin.com/pulse/architect-behind-curtain-tracing-rise-infrastructure-kelechi-egekenze-yu2ue`
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 
@@ -367,7 +363,7 @@ Paste your LinkedIn post link here:
 ## 10. Proof of Work
 
 - LinkedIn Post URL: **https://www.linkedin.com/pulse/architect-behind-curtain-tracing-rise-infrastructure-kelechi-egekenze-yu2ue**  
-- Blog / Medium : **ADD LINK HERE**  
+- Blog / Medium : **[ADD LINK HERE](https://www.linkedin.com/pulse/architect-behind-curtain-tracing-rise-infrastructure-kelechi-egekenze-yu2ue)**  
 
 ---
 
