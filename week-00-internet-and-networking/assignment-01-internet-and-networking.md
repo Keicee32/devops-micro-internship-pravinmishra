@@ -25,7 +25,7 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Task 1 Screenshot](./screenshots/week-00-screenshot-01-assignment-01.png)
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
@@ -34,7 +34,7 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+- A networking protocol is a set of rules that defines how devices communicate with each other over a network. It specifies how data is formatted, transmitted, received, and interpreted so that different devices can understand one another.
 
 ---
 
@@ -59,7 +59,7 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+- When someone visits EpicReads from anywhere in the world, their browser sends a request to the web server in Finland using HTTP or the more secure HTTPS protocol. The request is transmitted using the TCP/IP protocol suite. TCP breaks the data into smaller pieces and ensures they arrive correctly and in the right order, while IP uses the server's IP address to route the data across the internet. This process relies on packet switching, where data is divided into packets that can take different routes through the network before being reassembled at the destination. Once the server receives the request, it sends the website's pages back to the user's device using the same process, allowing people around the world to access EpicReads quickly and reliably.
 
 ---
 
@@ -91,7 +91,7 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![Application Architecture Diagram](./screenshots/week-00-screenshot-02-assignment-01.png)
 
 
 Replace `task-3-diagram.png` with your actual diagram file name.
@@ -102,18 +102,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* React
+* HTML, CSS, Javascript
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Python
+* Nodejs
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MariaDB
+* Postgres
 
 ---
 
@@ -142,7 +142,9 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+- DNS (Domain Name System) is like the internet's phonebook. It translates easy-to-remember domain names, such as epicreads.com, into IP addresses that computers use to locate servers. This allows users to access websites without memorizing numerical IP addresses.
+
+To connect epicreads.com to 52.172.142.222, you should use an A (Address) record. An A record maps a domain name directly to an IPv4 address, ensuring that anyone who enters epicreads.com is directed to the correct server hosting the EpicReads website.
 
 ---
 
@@ -178,7 +180,7 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
+![VS Code Setup Screenshot](./screenshots/week-00-screenshot-03-assignment-01.png)
 
 
 Replace `task-5-vscode.png` with your actual screenshot file name.
@@ -218,7 +220,7 @@ Add the following credit note at the end of your post:
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
+`https://www.linkedin.com/pulse/devops-micro-internship-kelechi-egekenze-z4flf`
 ```
 
 ---
@@ -227,7 +229,15 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+I recently registered for the Devops Micro Internship and these were the tasks given to prove my acceptability into the cohort:
+
+I was asked to explain what a protocol. Using chatGPT (which was part of the instructions), I understood that a protocol is simply a rulebook that guide how computers communicate.
+The second task was around internet and networking. I clearly explained the following terms: Packets, packet switching, TCP/IP models using a fictional website called EpicReads.
+In the 3rd task, I designed different app architecture for a 2-tier app and a 3-tier app. I also stated the technology stack used by all of the tiers.
+Here, I explained the importance of DNS and the DNS record type for an IPv4 address.
+Did some hands-on practice with VS Code. Basic commands were demonstrated.
+
+P.S. This post is part of the FREE DevOps Micro Internship Cohort run by Pravin Mishra. You can start your DevOps journey for free from his YouTube Playlist.
 
 ---
 
@@ -235,19 +245,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+- Using chatgpt to ask questions and how DNS works
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+- Understanding Protocols
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+- Learn more about protocols
 
 ---
 

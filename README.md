@@ -74,7 +74,7 @@ This is not a course. It is an internship-style program — real deployments, re
 <!-- [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) -->
 
 <!-- Week 02 → Agentic AI with Claude Code -->
-<!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
+[![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) 
 
 <!-- Week 03 → Linux & Bash for DevOps -->
 <!-- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) -->
@@ -130,7 +130,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
+| 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | https://www.linkedin.com/pulse/devops-micro-internship-kelechi-egekenze-z4flf | https://www.linkedin.com/pulse/devops-micro-internship-kelechi-egekenze-z4flf |
 | 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | https://www.linkedin.com/pulse/architect-behind-curtain-tracing-rise-infrastructure-kelechi-egekenze-yu2ue | https://www.linkedin.com/pulse/architect-behind-curtain-tracing-rise-infrastructure-kelechi-egekenze-yu2ue |
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | https://www.linkedin.com/posts/kelechi-egekenze_before-discussing-the-claudemd-file-it-share-7481653232772030464-WWRF/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADT58zgB1d_Na5CgQd9L3ayPC9yKCe5WLA4 | https://www.linkedin.com/posts/kelechi-egekenze_before-discussing-the-claudemd-file-it-share-7481653232772030464-WWRF/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADT58zgB1d_Na5CgQd9L3ayPC9yKCe5WLA4 |
 | 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | https://www.linkedin.com/posts/kelechi-egekenze_devops-aws-linux-share-7483661232688943104-c8qW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADT58zgB1d_Na5CgQd9L3ayPC9yKCe5WLA4 | https://www.linkedin.com/posts/kelechi-egekenze_devops-aws-linux-share-7483661232688943104-c8qW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADT58zgB1d_Na5CgQd9L3ayPC9yKCe5WLA4 |
