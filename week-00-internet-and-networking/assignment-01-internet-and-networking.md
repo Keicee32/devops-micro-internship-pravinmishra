@@ -237,7 +237,7 @@ In the 3rd task, I designed different app architecture for a 2-tier app and a 3-
 Here, I explained the importance of DNS and the DNS record type for an IPv4 address.
 Did some hands-on practice with VS Code. Basic commands were demonstrated.
 
-P.S. This post is part of the FREE DevOps Micro Internship Cohort run by Pravin Mishra. You can start your DevOps journey for free from his YouTube Playlist.
+P.S. This post is part of the FREE DevOps Micro Internship Cohort run by [Pravin Mishra](https://pravinmishra.com/dmi). You can start your DevOps journey for free from his YouTube Playlist.
 
 ---
 
