@@ -42,7 +42,7 @@ Answer the following in your own words:
 
 **2. What is the difference between shell and Bash?**
 
-Add your answer here.
+- "Shell" is a broad, generic category name for any command-line interpreter, while "Bash" is one specific software implementation of a shell. In simple terms, "shell" is like the concept of a "car," and "Bash" is a specific model, like a "Ford Mustang".
 
 ---
 
