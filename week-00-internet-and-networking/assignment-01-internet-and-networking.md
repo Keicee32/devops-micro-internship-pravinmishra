@@ -220,7 +220,7 @@ Add the following credit note at the end of your post:
 Paste your LinkedIn post URL here:
 
 ```text
-`https://www.linkedin.com/pulse/devops-micro-internship-kelechi-egekenze-z4flf`
+`https://www.linkedin.com/posts/kelechi-egekenze_i-recently-registered-for-the-devops-micro-share-7485624725516460032-o2Mo/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADT58zgB1d_Na5CgQd9L3ayPC9yKCe5WLA4`
 ```
 
 ---
