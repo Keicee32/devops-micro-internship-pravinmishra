@@ -356,14 +356,14 @@ Learn to do at least one hour of focus learning daily
 
 Paste your LinkedIn post link here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/kelechi-egekenze_join-the-dmi-devops-micro-internship-share-7486373403210440704-dBdN/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADT58zgB1d_Na5CgQd9L3ayPC9yKCe5WLA4`
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **https://www.linkedin.com/pulse/architect-behind-curtain-tracing-rise-infrastructure-kelechi-egekenze-yu2ue**  
-- Blog / Medium : **(https://www.linkedin.com/pulse/architect-behind-curtain-tracing-rise-infrastructure-kelechi-egekenze-yu2ue)**  
+- LinkedIn Post URL: **https://www.linkedin.com/posts/kelechi-egekenze_join-the-dmi-devops-micro-internship-share-7486373403210440704-dBdN/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADT58zgB1d_Na5CgQd9L3ayPC9yKCe5WLA4**  
+- Blog / Medium : **(https://www.linkedin.com/posts/kelechi-egekenze_join-the-dmi-devops-micro-internship-share-7486373403210440704-dBdN/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADT58zgB1d_Na5CgQd9L3ayPC9yKCe5WLA4)**  
 
 ---
 

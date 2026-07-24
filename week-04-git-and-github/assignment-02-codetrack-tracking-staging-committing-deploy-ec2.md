@@ -40,7 +40,7 @@ Create the two starter UI files inside `CodeTrack`.
 
 #### Screenshot 3 — Output of `ls` showing `index.html` and `style.css`
 
-Add your screenshot here.
+![Week 4 Assignment](./screenshots/week-04-screenshot-03-assignment-02.png)
 
 ---
 
@@ -54,7 +54,8 @@ Copy the provided starter HTML and CSS content into your local `index.html` and 
 
 #### Screenshot 4 — Your editor showing the contents of `index.html` and `style.css`
 
-Add your screenshot here.
+![Week 4 Assignment](./screenshots/week-04-screenshot-04-assignment-02.png)
+![Week 4 Assignment](./screenshots/week-04-screenshot-05-assignment-02.png)
 
 ---
 
@@ -68,13 +69,13 @@ Confirm both files show as untracked, then stage them individually with `git add
 
 #### Screenshot 5 — Output of `git status` showing both files as untracked
 
-Add your screenshot here.
+![Week 4 Assignment](./screenshots/week-04-screenshot-06-assignment-02.png)
 
 ---
 
 #### Screenshot 6 — Output of `git status` showing both files staged under "Changes to be committed"
 
-Add your screenshot here.
+![Week 4 Assignment](./screenshots/week-04-screenshot-07-assignment-02.png)
 
 ---
 
@@ -88,13 +89,13 @@ Commit the staged starter files using the message `Initial UI scaffold: add inde
 
 #### Screenshot 7 — Output of `git commit`
 
-Add your screenshot here.
+![Week 4 Assignment](./screenshots/week-04-screenshot-08-assignment-02.png)
 
 ---
 
 #### Screenshot 8 — Output of `git log --oneline` showing the first commit
 
-Add your screenshot here.
+![Week 4 Assignment](./screenshots/week-04-screenshot-09-assignment-02.png)
 
 ---
 
@@ -108,25 +109,25 @@ Follow the instruction comment inside `index.html` to update the Student Name an
 
 #### Screenshot 9 — Browser showing the updated page with your Student Name and Group Name visible
 
-Add your screenshot here.
+![Week 4 Assignment](./screenshots/week-04-screenshot-10-assignment-02.png)
 
 ---
 
 #### Screenshot 10 — Output of `git status` showing `index.html` as modified
 
-Add your screenshot here.
+![Week 4 Assignment](./screenshots/week-04-screenshot-11-assignment-02.png)
 
 ---
 
 #### Screenshot 11 — Output of `git commit`
 
-Add your screenshot here.
+![Week 4 Assignment](./screenshots/week-04-screenshot-12-assignment-02.png)
 
 ---
 
 #### Screenshot 12 — Output of `git log --oneline` showing two commits
 
-Add your screenshot here.
+![Week 4 Assignment](./screenshots/week-04-screenshot-13-assignment-02.png)
 
 ---
 
@@ -140,19 +141,18 @@ Install and start Nginx on your EC2 instance, then copy `index.html` and `style.
 
 #### Screenshot 13 — Output of `systemctl status nginx --no-pager` showing Nginx `active (running)`
 
-Add your screenshot here.
+![Week 4 Assignment](./screenshots/week-04-screenshot-14-assignment-02.png)
 
 ---
 
 #### Screenshot 14 — Output of `curl -I http://localhost` showing `HTTP/1.1 200 OK`
 
-Add your screenshot here.
-
+![Week 4 Assignment](./screenshots/week-04-screenshot-15-assignment-02.png)
 ---
 
 #### Screenshot 15 — Browser showing the CodeTrack site loaded at `http://<EC2_PUBLIC_IP>`, with your Full Name and Group Name visible
 
-Add your screenshot here.
+![Week 4 Assignment](./screenshots/week-04-screenshot-16-assignment-02.png)
 
 ---
 
