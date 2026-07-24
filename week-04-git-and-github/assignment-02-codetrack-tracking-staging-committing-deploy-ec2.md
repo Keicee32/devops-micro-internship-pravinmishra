@@ -164,13 +164,13 @@ Install and start Nginx on your EC2 instance, then copy `index.html` and `style.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/kelechi-egekenze_version-control-is-one-of-those-concepts-share-7486376149682475009-Wxt7/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADT58zgB1d_Na5CgQd9L3ayPC9yKCe5WLA4`
 
 ---
 
 #### Screenshot — LinkedIn post showing the deployed CodeTrack application
 
-Add your screenshot here.
+![Linkedin Post](./screenshots/LinkedInPost.png)
 
 ---
 
