@@ -220,10 +220,10 @@ Choose books that improve:
 4. Rich Dad, Poor Dad **Robert T. Kiyosaki**
 5. The Psychology of Money **Morgan Housel**
 6. Atomic Habits **James Clear**
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+7. Mindset by Carol S. Dweck
+8. Crucial Conversations by Joseph Grenny et al.
+9. Outlive by Peter Attia, MD
+10. So Good They Can't Ignore You by Cal Newport
 
 ---
 
@@ -258,10 +258,10 @@ List topics only. No need to share numbers.
 * Spending tracker
 * Type of food I consume
 * 5000 steps daily.
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Exercise
+* Eat healthy
+* Take fruits
+* Watch tutorials and do hands-on
 
 ---
 
