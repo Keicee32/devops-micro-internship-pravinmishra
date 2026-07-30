@@ -20,7 +20,7 @@ Fork `pravinmishraaws/devops-micro-internship-interviews` into your own GitHub a
 
 #### Screenshot 1 — Your fork page with your username and `devops-micro-internship-interviews` visible in the browser URL
 
-Add your screenshot here.
+![Week 4 Assignment](./screenshots/week-04-screenshot-01-assignment-05.png)
 
 ---
 
@@ -34,7 +34,7 @@ Configure one authentication method — HTTPS with a Personal Access Token, or S
 
 #### Screenshot 2 — Output of `git config --global --get credential.helper` (HTTPS) or `ssh -T git@github.com` (SSH) showing successful authentication — never show your token or private key
 
-Add your screenshot here.
+![Week 4 Assignment](./screenshots/week-04-screenshot-02-assignment-05.png)
 
 ---
 
