@@ -128,13 +128,14 @@ Paste your Pull Request URL here:
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/kelechi-egekenze_devops-git-github-share-7488535959479906304-WQwO/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADT58zgB1d_Na5CgQd9L3ayPC9yKCe5WLA4`
+
 
 ---
 
 #### Screenshot — LinkedIn post showing your successfully created Pull Request
 
-Add your screenshot here.
+![LinkedinPost Screenshot](./screenshots/LinkedinPost2.png)
 
 ---
 
@@ -151,7 +152,7 @@ Add your screenshot here.
 
 Paste your fork URL here:
 
-`Add your URL here`
+`https://github.com/Keicee32/devops-micro-internship-interviews`
 
 ---
 
