@@ -27,7 +27,7 @@ Confirm you are working in your own fork, then create a dedicated branch for thi
 
 #### Screenshot 1 — Output of git remote -v and git branch showing the new branch
 
-Add your screenshot here.
+![Week 04 Assignment](./screenshots/week-04-screenshot-01-assignment-06.png)
 
 ---
 
@@ -35,7 +35,7 @@ Add your screenshot here.
 
 **1. Why create a dedicated branch instead of doing this work on main?**
 
-Add your answer here.
+- A dedicated branch keeps this work isolated from the main branch so you can experiment safely without affecting the project’s stable code. It also makes the change easier to review, test, and later merge or discard cleanly.
 
 ---
 
@@ -49,7 +49,7 @@ On your own fork of this repository (the one you've been submitting your DMI wor
 
 #### Screenshot 1 — Output of  `git status` showing the staged file on feature/ai-pr-ready
 
-Add your screenshot here.
+![Week 04 Assignment](./screenshots/week-04-screenshot-02-assignment-06.png)
 
 ---
 
@@ -57,7 +57,7 @@ Add your screenshot here.
 
 **1. Why does this assignment use an obviously fake key instead of a real one?**
 
-Add your answer here.
+- It uses a clearly fake key to demonstrate the safety check safely without exposing any real credential or creating a security risk. The goal is to show how the hook detects secret-like patterns in a controlled example, while keeping the repository and submission environment free of actual sensitive data.
 
 ---
 
